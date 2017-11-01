@@ -24,5 +24,5 @@ createCB <- function(tidy) {
                         "N/A")
       )
       #writes the description data frame to a file and separate it so it creates a nice table in .md format
-      write.table(df, "codeBook.md", sep = " | ")
+      write.table(df, "codeBook.md", sep = " | ",row.names=F)
 }
