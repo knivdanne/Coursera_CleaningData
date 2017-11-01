@@ -41,6 +41,7 @@ createCB <- function(tidy) {
 ```
 
 "column.names" | "class" | "range" | "mean"
+|---			|---	  |---		|---   |
 "subject" | "integer" | "1  /  30" | "N/A"
 "activity" | "factor" | "LAYING / SITTING / STANDING / WALKING / WALKING_DOWNSTAIRS / WALKING_UPSTAIRS" | "N/A"
 "tBodyAcc-mean()-X" | "numeric" | "0.22159824394  /  0.3014610196" | "0.274302742245795"
